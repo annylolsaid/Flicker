@@ -5,7 +5,36 @@ body{
 h1, img{
     width: 400px;
     position: relative;
-    display: ;
+    display:flex ;
     left: 200px;
     right: 200px;
+}
+footer {
+  background-color: rgb(129, 0, 0);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.contatos {
+  display: flex;
+  gap: 20px;
+}
+
+.contatos a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contatos a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 14px;
+  text-align: center;
 }
