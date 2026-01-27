@@ -1,11 +1,27 @@
 body{
-    background-color: rgb(255, 0, 0);
+    background-image: url("https://uploads.onecompiler.io/43qyhfqya/44btyv2pp/flicker%20(1).png");
 }
 
-h1, img{
-    width: 400px;
+img, .titulo{
+    width: 600px;
     position: relative;
-    display: ;
-    left: 200px;
-    right: 200px;
+    display: flex;
+    left: 550px;
+    top: -200px;
+}
+
+img, .estrelas{
+    width: 600px;
+    position: absolute;
+    display: flex;
+    left: 130px;
+    top: 5px;
+}
+
+img, .selo{
+    width: 900px;
+    position: relative;
+    display: flex;
+    right: 100px;
+    bottom: 200px;
 }
