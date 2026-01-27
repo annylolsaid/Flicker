@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(255, 0, 0);
+}
+
+h1, img{
+    width: 400px;
+    position: relative;
+    display: ;
+    left: 200px;
+    right: 200px;
+}
