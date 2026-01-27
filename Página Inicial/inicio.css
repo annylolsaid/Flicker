@@ -3,36 +3,47 @@ body{
 }
 
 img, .titulo{
-    width: 600px;
+    width: 500px;
     position: relative;
-<<<<<<< HEAD
     display: flex;
-    left: 550px;
-    top: -200px;
+    left: 450px;
+    top: -160px;
 }
 
 img, .estrelas{
-    width: 600px;
+    width: 500px;
     position: absolute;
     display: flex;
-    left: 130px;
-    top: 5px;
+    left: 100px;
+    top: 10px;
 }
 
 img, .selo{
-    width: 900px;
-    position: relative;
+    width: 890px;
+    position: absolute;
     display: flex;
-    right: 100px;
-    bottom: 200px;
+    left: -300px;
+    top: 490px;
 }
-=======
-    display:flex ;
-    left: 200px;
-    right: 200px;
+
+img, .fita{
+    width: 400px;
+    position: absolute;
+    display: flex;
+    left: 90px;
+    top: 250px;
 }
+
+img, .cartaz{
+    width: 900px;
+    position: absolute;
+    display: flex;
+    left: 700px;
+    top: 70px;
+}
+
 footer {
-  background-color: rgb(129, 0, 0);
+  background-color: rgba(129, 0, 0, 0);
   color: white;
   padding: 20px;
   display: flex;
@@ -60,4 +71,3 @@ footer {
   font-size: 14px;
   text-align: center;
 }
->>>>>>> bd41ec95815af314c9c4c38447aeee6c82df0603
