@@ -2,28 +2,34 @@ body{
     background-image: url("https://uploads.onecompiler.io/43qyhfqya/44btyv2pp/flicker%20(1).png");
 }
 
+html, body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 img, .titulo{
-    width: 500px;
+    width: 550px;
     position: relative;
     display: flex;
-    left: 450px;
-    top: -160px;
+    left: 590px;
+    top: -170px;
 }
 
 img, .estrelas{
-    width: 500px;
+    width: 550px;
     position: absolute;
     display: flex;
-    left: 100px;
+    left: 200px;
     top: 10px;
 }
 
 img, .selo{
-    width: 890px;
+    width: 900px;
     position: absolute;
     display: flex;
     left: -300px;
-    top: 490px;
+    top: 390px;
 }
 
 img, .fita{
@@ -31,18 +37,45 @@ img, .fita{
     position: absolute;
     display: flex;
     left: 90px;
-    top: 250px;
+    top: 150px;
 }
 
 img, .cartaz{
-    width: 900px;
+    width: 1000px;
     position: absolute;
     display: flex;
-    left: 700px;
+    left: 900px;
     top: 70px;
 }
 
-footer {
+p, .line{
+  width: 270px;
+  font-size: 30px;
+  color: rgba(35, 0, 0, 1.0);
+  font-family:cursive;
+  position: relative;
+  left: 240px;
+  bottom: 110px;
+  text-align: center;
+  line-height: 2.0;
+}
+
+p, .day{
+  width: 270px;
+  font-size: 30px;
+  color: black;
+  font-family:cursive;
+  position: absolute;
+  left: 240px;
+  text-align: center;
+  line-height: 2.0;
+}
+
+p, .liberado{
+
+}
+
+/* footer {
   background-color: rgba(129, 0, 0, 0);
   color: white;
   padding: 20px;
@@ -70,4 +103,4 @@ footer {
 .footer p {
   font-size: 14px;
   text-align: center;
-}
+} */
