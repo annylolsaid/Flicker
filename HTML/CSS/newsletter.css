@@ -31,3 +31,19 @@ footer {
 .links {
   font-family: cursive;
 }
+
+.solo {
+  display: inline-block;
+}
+
+.duo {
+  display: inline-block;
+}
+
+.familia {
+  display: inline-block;
+}
+
+.uni {
+  display: inline-block;
+}
