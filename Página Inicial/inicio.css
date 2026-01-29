@@ -50,19 +50,20 @@ img, .cartaz{
 
 p, .line{
   width: 270px;
-  font-size: 30px;
+  font-size: 40px;
   color: rgba(35, 0, 0, 1.0);
   font-family:cursive;
   position: relative;
   left: 240px;
-  bottom: 110px;
+  bottom:250px;
   text-align: center;
-  line-height: 2.0;
+  line-height: 1.5;
+  bottom: 160px;
 }
 
 p, .day{
   width: 270px;
-  font-size: 30px;
+  font-size: 20px;
   color: black;
   font-family:cursive;
   position: absolute;
@@ -72,6 +73,14 @@ p, .day{
 }
 
 p, .liberado{
+  width: 270px;
+  font-size: 20px;
+  color: black;
+  font-family:cursive;
+  position: absolute;
+  left: 240px;
+  text-align: center;
+  line-height: 2.0;
 
 }
 
@@ -104,3 +113,11 @@ p, .liberado{
   font-size: 14px;
   text-align: center;
 } */
+
+.liberado {
+  bottom:530px;
+}
+
+.day {
+  top: 290px;
+} 
