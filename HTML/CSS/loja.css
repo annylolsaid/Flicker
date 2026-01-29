@@ -6,41 +6,45 @@
 
 body {
   font-family: 'Oswald', sans-serif;
-  background: #e6e6e6;
+  background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44c3afssv/background%20papel.png);
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
   color: #111;
 }
-
-/* TOPO */
-.topo {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 60px;
+  padding: 3vh 5vh;
 }
 
-.logo {
-  font-size: 76px;
-  letter-spacing: 4px;
+header h1 {
+  font-size: 11vh;
+  letter-spacing: 0.5vh;
   font-family: 'Anton', sans-serif;
 }
 
 nav{
   width: 45%;
-  height: 40px;
+  height: 4vh;
   position: absolute;
   top: 5%;
   right: 0;
   display: flex;
   align-items: start;
-  justify-content: flex-end;
+  justify-content: end;
 }
 nav a{
   width: 23%;
-  font-size: 25px;
+  font-size: 3vh;
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+main{
+  display: flex;
 }
   
 
