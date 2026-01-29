@@ -1,29 +1,83 @@
-footer {
-  background-color: rgb(129, 0, 0);
-  color: white;
-  padding: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background: #e6e6e6;
+  color: #111;
+}
+
+/* TOPO */
+.topo {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  padding: 25px 60px;
 }
 
-.contatos {
+.logo {
+  font-size: 76px;
+  letter-spacing: 4px;
+  font-family: 'Anton', sans-serif;
+}
+
+nav{
+  width: 45%;
+  height: 40px;
+  position: absolute;
+  top: 5%;
+  right: 0;
   display: flex;
-  gap: 20px;
+  align-items: start;
+  justify-content: flex-end;
+}
+nav a{
+  width: 23%;
+  font-size: 25px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+
+/* CONTAINER */
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
 
-.contatos a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+/* GRID DE PRODUTOS */
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 270px);
+  gap: 100px;
 }
 
-.contatos a:hover {
-  text-decoration: underline;
+/* CARD */
+.card {
+  height: 200px;
+  background: linear-gradient(145deg, #2b0000, #3a0000);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 3px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
-.footer p {
-  font-size: 14px;
-  text-align: center;
+/* HOVER */
+.card:hover {
+  transform: translateY(-8px) scale(1.04);
+  background: linear-gradient(145deg, #3a0000, #500000);
 }
