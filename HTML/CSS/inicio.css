@@ -1,0 +1,125 @@
+body{
+  background-image: url("https://uploads.onecompiler.io/43qyhfqya/44btyv2pp/flicker%20(1).png");
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header{
+  width: calc(100% - 45%);
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.container{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.containercartaz{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+img{
+  flex-shrink: 3;
+}
+nav{
+  width: 45%;
+  height: 40px;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  display: flex;
+  align-items: start;
+  justify-content: flex-end;
+}
+nav a{
+  width: 23%;
+  font-size: 25px;
+  color: #fff6de;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.line-up{
+  position: relative;
+  left: -4%;
+}
+img, .titulo{
+    width: 550px;
+    position: relative;
+    display: flex;
+    left: 590px;
+    top: -170px;
+}
+
+img, .estrelas{
+    width: 550px;
+    position: absolute;
+    display: flex;
+    left: 150px;
+    top: 10px;
+}
+
+img, .selo{
+    width: 900px;
+    position: absolute;
+    display: flex;
+    left: -300px;
+    top: 390px;
+}
+
+img, .fita{
+    width: 400px;
+    position: absolute;
+    display: flex;
+    left: 90px;
+    top: 150px;
+}
+
+img, .cartaz{
+    width: 1000px;
+    position: absolute;
+    display: flex;
+    left: 900px;
+    top: 70px;
+}
+
+p, .line{
+  width: 270px;
+  font-size: 35px;
+  color: rgba(35, 0, 0, 1.0);
+  font-family:cursive;
+  position: relative;
+  left: 240px;
+  top: -135px;
+  text-align: center;
+  line-height: 2.0;
+}
+
+.day{
+  width: 270px;
+  font-size: 27px;
+  color: rgb(0, 0, 0);
+  font-family:cursive;
+  position: absolute;
+  top: 265px;
+  text-align: center;
+  rotate: calc(2deg)
+}
+
+.liberado{
+  font-size: 32px;
+  color: red;
+  font-family: cursive;
+  position: absolute;
+  top: 285px;
+  rotate: calc(3deg);
+}
