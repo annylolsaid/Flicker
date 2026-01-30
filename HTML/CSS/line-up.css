@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44c3afssv/background%20papel.png);
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
+  color: #111;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh 5vh;
+}
+
+header h1 {
+  font-size: 11vh;
+  letter-spacing: 0.5vh;
+  font-family: 'Anton', sans-serif;
+}
+
+nav{
+  width: 45%;
+  height: 4vh;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+}
+nav a{
+  width: 23%;
+  font-size: 3vh;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main{
+  display: flex;
+}
+
+section{
+  width: 25%;
+  height: 100vh;
+}
+.dia1 img{
+  width: 160%;
+  position: relative;
+  top: -50%;
+  left: -90%;
+  z-index: 1;
+}
+.dia1 div{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: black;
+  position: relative;
+  right: -10%;
+  width: 80%;
+  height: 45%;
+  z-index: 2;
+  background-image: url();
+}
+.dia1 h2{
+  position: relative;
+  font-size: 3vh;
+  right: -32%;
+  top: -5%;
+  text-align: center;
+  color: #a73c3c;
+  border-radius: 20px;
+  background-color: #3a0000 ;
+  width: 30%;
+  z-index: 2;
+}
+
+.dia2 div{
+  background-color: black;
+  width: 80%;
+  height: 45%;
+  position: relative;
+  bottom: -33%;
+  z-index: 2;
+  background-image: url();
+}
+.dia2 h2{
+  position: relative;
+  font-size: 3vh;
+  right: -23%;
+  bottom: -28%;
+  text-align: center;
+  color: #a73c3c;
+  border-radius: 20px;
+  background-color: #3a0000 ;
+  width: 30%;
+  z-index: 2;
+}
+.dia3 div{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  background-color: black;
+  position: relative;
+  top: -10%;
+  right: 18%;
+  width: 80%;
+  height: 45%;
+  z-index: 2;
+  background-image: url();
+}
+.dia3 h2{
+  position: relative;
+  font-size: 3vh;
+  right: -7%;
+  top: -15%;
+  text-align: center;
+  color: #a73c3c;
+  border-radius: 20px;
+  background-color: #3a0000 ;
+  width: 30%;
+  z-index: 2;
+}
+.dia3 img{
+  width: 100%;
+  position: relative;
+  top: -72vh;
+  left: -42vh;
+  z-index: 1;
+}
+.rock{
+  width: 100%;
+  position: relative;
+  right: 30vh;
+  bottom: 10vh;
+  z-index: 1;
+}
+.dia4 div{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: black;
+  position: relative;
+  top: -26%;
+  right: 28%;
+  width: 80%;
+  height: 45%;
+  z-index: 2;
+  background-image: url();
+}
+.dia4 h2{
+  position: relative;
+  font-size: 3vh;
+  right: 17%;
+  bottom: 31%;
+  text-align: center;
+  color: #a73c3c;
+  border-radius: 20px;
+  background-color: #3a0000 ;
+  width: 60%;
+  z-index: 2;
+}
+.olhos{
+  width: 120%;
+  position: relative;
+  right: 57%;
+  bottom: 47vh;
+  z-index: 1;
+}
+/* footer {
+  background-color: rgb(129, 0, 0);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.contatos {
+  display: flex;
+  gap: 20px;
+}
+
+.contatos a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contatos a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 14px;
+  text-align: center;
+} */

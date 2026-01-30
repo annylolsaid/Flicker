@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44c3afssv/background%20papel.png);
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
+  color: #111;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh 5vh;
+}
+
+header h1 {
+  font-size: 11vh;
+  letter-spacing: 0.5vh;
+  font-family: 'Anton', sans-serif;
+}
+
+nav{
+  width: 45%;
+  height: 4vh;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+}
+nav a{
+  width: 23%;
+  font-size: 3vh;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main{
+  display: flex;
+}
+h2{
+
+}
+ul{
+  list-style: circle;
+}

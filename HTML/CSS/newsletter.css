@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44c3afssv/background%20papel.png);
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
+  color: #111;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh 5vh;
+}
+
+header h1 {
+  font-size: 11vh;
+  letter-spacing: 0.5vh;
+  font-family: 'Anton', sans-serif;
+}
+
+nav{
+  width: 45%;
+  height: 4vh;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  display: flex;
+  align-items: start;
+  justify-content: end;
+}
+nav a{
+  width: 23%;
+  font-size: 3vh;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main{
+  display: flex;
+}
+
+.segundo {
+  display: inline-block;
+  position: absolute;
+  left: 120vh;
+}
+
+.terceiro {
+  display: inline-block;
+  position: absolute;
+  top: 80vh;
+  left: 20vh;
+  
+}
+
+.quarto {
+  display: inline-block;
+  position: absolute;
+  top: 80vh;
+  left: 120vh;
+
+}
+
+.primeiro {
+  display: inline-block;
+  position: absolute;
+  left: 20vh;
+  top: 19vh;
+}
+
+.estrelas{
+  display: flex;
+  position: absolute;
+  left: 186vh;
+  height: 80vh;
+  bottom: 60vh;
+}
+
+.saturno{
+  display: flex;
+  position: absolute;
+  right: 25vh;
+  height: 25lvh;
+  top: 12vh;
+}
+
+.fita{
+  display: flex;
+  position: absolute;
+  height: 90vh;
+  bottom: 18vh;
+  right: 95vh;
+}
+
+/* footer {
+  background-color: rgb(129, 0, 0);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.contatos {
+  display: flex;
+  gap: 20px;
+}
+
+.contatos a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contatos a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 14px;
+  text-align: center;
+} */
