@@ -70,9 +70,17 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   color: #fff;
   font-size: 20px;
   letter-spacing: 3px;
+=======
+
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 3px;
+
+>>>>>>> 3d458ebb89ec80f72bb9e4e072f5b6b3b55c9398
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
   cursor: pointer;
   transition: 0.3s ease;

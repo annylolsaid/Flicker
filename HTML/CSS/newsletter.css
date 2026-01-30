@@ -12,7 +12,10 @@ body {
   height: 100vh;
   color: #111;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3d458ebb89ec80f72bb9e4e072f5b6b3b55c9398
 header {
   display: flex;
   justify-content: space-between;
@@ -48,6 +51,7 @@ main{
   display: flex;
 }
 
+<<<<<<< HEAD
 .segundo {
   display: inline-block;
   position: absolute;
@@ -99,6 +103,22 @@ main{
   height: 90vh;
   bottom: 18vh;
   right: 95vh;
+=======
+.solo {
+  display: inline-block;
+}
+
+.duo {
+  display: inline-block;
+}
+
+.familia {
+  display: inline-block;
+}
+
+.uni {
+  display: inline-block;
+>>>>>>> 3d458ebb89ec80f72bb9e4e072f5b6b3b55c9398
 }
 
 /* footer {
