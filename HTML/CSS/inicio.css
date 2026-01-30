@@ -36,6 +36,12 @@ header{
 img{
   flex-shrink: 3;
 }
+p{
+  flex-shrink: 3;
+}
+main{
+  display: flex;
+}
 nav{
   width: 45%;
   height: 4vh;
@@ -75,55 +81,59 @@ nav a{
     width: 110%;
     position: relative;
     bottom: 58vh;
-    left: 2vh;
+    left: 10vh;
     display: flex;
 }
-.day{
-  width: 140%;
-  height: 10%;
-  font-size: 5vh;
-  color: rgb(255, 255, 255);
-  font-family:cursive;
+.txt1{
+  font-family: cursive;
   position: relative;
-  left: 50vh;
-  bottom: 50vh;
+  right: 15vh;
+  bottom: 48vh;
+}
+.day{
   text-align: center;
+  font-size:3vh;
+  color: rgb(0, 0, 0);
   rotate: calc(2deg)
 }
 
 .liberado{
-  font-size: 32px;
+  font-size: 4vh;
   color: red;
-  font-family: cursive;
-  position: absolute;
-  top: 285px;
   rotate: calc(3deg);
 }
 
 .selo{
-    width: 200%;
-    position: relative;
-    right: 88vh;
-    top: 2.5vh;
-    display: flex;
+  width: 220%;
+  position: relative;
+  right: 105vh;
+  top: 6vh;
+  display: flex;
 }
 
 .cartaz{
-    width: 1000px;
-    position: relative;
-    display: flex;
-    left: 900px;
-    top: 70px;
+  width: 1000px;
+  position: relative;
+  display: flex;
+  left: 900px;
+  top: 70px;
 }
 
+.txt2{
+ font-family: cursive;
+ width: 150%;
+ height: 30vh;
+ position: relative;
+ bottom: 20vh;
+ right: 158vh;
+}
 .line{
-  width: 270px;
-  font-size: 35px;
-  color: rgba(35, 0, 0, 1.0);
-  font-family:cursive;
   position: relative;
-  left: 240px;
-  top: -135px;
+  bottom: 5vh;
+  width: 140%;
+  font-size: 4.2vh;
+  padding: 9vh;
+  color: rgba(35, 0, 0, 1.0);
   text-align: center;
   line-height: 2.0;
 }
