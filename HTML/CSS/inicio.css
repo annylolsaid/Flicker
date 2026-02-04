@@ -54,6 +54,7 @@ nav{
   width: 45%;
   height: 4vh;
   position: relative;
+  z-index: 3;
   top: 5%;
   left: 120vh;
   display: flex;
@@ -67,8 +68,17 @@ nav a{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 1.5s;
 }
-
+nav a:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+  color: #b91515;
+}
+.loja{
+  position: relative;
+  left: 4vh;
+}
 /* Elementos */
 .titulo{
     width: 85%;
