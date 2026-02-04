@@ -1,9 +1,10 @@
+/* Global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Body */
 body {
   font-family: 'Oswald', sans-serif;
   background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44c3afssv/background%20papel.png);
@@ -11,7 +12,9 @@ body {
   background-position: center; 
   height: 100vh;
   color: #111;
+  overflow: hidden;
 }
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -24,7 +27,7 @@ header h1 {
   letter-spacing: 0.5vh;
   font-family: 'Anton', sans-serif;
 }
-
+/* Nav */
 nav{
   width: 45%;
   height: 4vh;
@@ -42,46 +45,99 @@ nav a{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.6s;
 }
+nav a:hover{
+  transition: 0.4s;
+  transform: scale(1.05);
+  color: #b91515;
+}
+.newsletter{
+  position: relative;
+  right: 3vh;
+}
+.ingressos{
+  position: relative;
+  right: 5vh;
+}
+/* Main */
 main{
   display: flex;
-}
-  
-
-/* CONTAINER */
-.container {
-  display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 12vh;
 }
 
-/* GRID DE PRODUTOS */
+/* Grid de produtos */
 .produtos {
   display: grid;
-  grid-template-columns: repeat(3, 270px);
-  gap: 100px;
+  grid-template-columns: repeat(3, 35vh);
+  gap: 10vh;
+  position: relative;
+  left: 45vh;
+  z-index: 2;
 }
-
-/* CARD */
+.cima{
+  position: relative;
+  bottom: 20vh;
+}
+/* Card */
 .card {
-  height: 200px;
+  height: 27vh;
   background: linear-gradient(145deg, #2b0000, #3a0000);
-  border-radius: 14px;
+  border-radius: 2vh;
   display: flex;
   align-items: center;
   justify-content: center;
 
   color: #fff;
-  font-size: 20px;
-  letter-spacing: 3px;
+  font-size: 3vh;
+  letter-spacing: 0.5vh;
 
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0.5vh 2vh rgba(0, 0, 0, 0.35);
   cursor: pointer;
   transition: 0.3s ease;
 }
 
-/* HOVER */
 .card:hover {
-  transform: translateY(-8px) scale(1.04);
+  transform: translateY(-0.5vh) scale(1.04);
   background: linear-gradient(145deg, #3a0000, #500000);
+}
+
+/* Elementos */
+.imagens{
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+}
+.mão{
+  width: 40%;
+  height: 40%;
+  position: relative;
+  bottom: 20vh;
+  right: 85.5vh;
+}
+.boca{
+  width: 50%;
+  height: 50%;
+  position: relative;
+  right: 120vh;
+  top: 9vh;
+}
+.estrela{
+  width: 60%;
+  height: 60%;
+  position: relative;
+  right: 110vh;
+  bottom: 23vh;
+}
+.punk{
+  width: 60%;
+  height: 60%;
+  position: relative;
+  right: 175vh;
+  bottom: 10vh;
+}
+.ondas{
+  position: relative;
+  right: 175vh;
 }
