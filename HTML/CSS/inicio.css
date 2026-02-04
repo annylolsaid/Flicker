@@ -115,8 +115,9 @@ nav a{
   width: 1000px;
   position: relative;
   display: flex;
-  left: 900px;
-  top: 70px;
+  left: 30vh;
+  bottom: 15vh;
+
 }
 
 .txt2{

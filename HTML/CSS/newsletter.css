@@ -47,7 +47,6 @@ main{
   display: flex;
 }
 
-<<<<<<< HEAD
 .segundo {
   display: inline-block;
   position: absolute;
@@ -59,6 +58,7 @@ main{
   position: absolute;
   top: 80vh;
   left: 20vh;
+
   
 }
 
@@ -89,7 +89,7 @@ main{
   display: flex;
   position: absolute;
   right: 25vh;
-  height: 25lvh;
+  height: 25vh;
   top: 12vh;
 }
 
@@ -97,24 +97,156 @@ main{
   display: flex;
   position: absolute;
   height: 90vh;
-  bottom: 18vh;
+  bottom: 10vh;
   right: 95vh;
-=======
-.solo {
-  display: inline-block;
 }
 
-.duo {
-  display: inline-block;
+.terceiro h3 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 55vh;
+  font-size: 4vh;
+  left: 20vh;
 }
 
-.familia {
-  display: inline-block;
+.terceiro p {
+  display: flex;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 47vh;
+  font-size: 105%;
+  left: 15vh;
+  text-align: justify;
+  width: 40vh
 }
 
-.uni {
-  display: inline-block;
->>>>>>> 3d458ebb89ec80f72bb9e4e072f5b6b3b55c9398
+.segundo h3 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 55vh;
+  font-size: 4vh;
+  left: 24vh;
+}
+
+.segundo p {
+  display: flex;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 47vh;
+  font-size: 105%;
+  left: 15vh;
+  text-align: justify;
+  width: 40vh;
+
+}
+
+
+.primeiro h3 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 55vh;
+  font-size: 4vh;
+  left: 22vh;
+}
+
+.primeiro p {
+  display: flex;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 47vh;
+  font-size: 105%;
+  left: 15vh;
+  text-align: justify;
+  width: 40vh;
+
+}
+
+.quarto h3 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 55vh;
+  font-size: 4vh;
+  left: 13vh;
+}
+
+.quarto p {
+  display: flex;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 47vh;
+  font-size: 105%;
+  left: 15vh;
+  text-align: justify;
+  width: 40vh;
+
+}
+
+.beneficios {
+  position: absolute;
+  list-style: disc; 
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 16vh;
+  bottom: 25vh;
+}
+
+.beneficios li {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.beneficios2 {
+  position: absolute;
+  list-style: disc; 
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 16vh;
+  bottom: 25vh;
+}
+
+.beneficios2 li {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.beneficios3 {
+  position: absolute;
+  list-style: disc; 
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 16vh;
+  bottom: 25vh;
+}
+
+.beneficios3 li {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.beneficios4 {
+  position: absolute;
+  list-style: disc; 
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 16vh;
+  bottom: 29vh;
+}
+
+.beneficios4 li {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 /* footer {
