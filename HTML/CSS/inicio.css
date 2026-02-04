@@ -1,9 +1,11 @@
+/* Global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body */
 body {
   font-family: 'Oswald', sans-serif;
   background-image: url("https://uploads.onecompiler.io/43qyhfqya/44btyv2pp/flicker%20(1).png");
@@ -11,14 +13,23 @@ body {
   background-position: center; 
   height: 100vh;
   color: #111;
+  overflow: hidden;
 }
+/* Header */
 header{
-  width: 100%;
-  height: 30%;
-  display: flex;
-  justify-content: start;
-  align-items: start;
+  width: 100vh;
+  height: 30vh;
 }
+/* Definições */
+img{
+  flex-shrink: 3;
+  flex-grow: 3;
+}
+p{
+  flex-shrink: 3;
+  flex-grow: 3;
+}
+/* Containers */
 .container{
   height: 100vh;
   width: 50vh;
@@ -30,24 +41,21 @@ header{
   height: 100vh;
   width: 50vh;
   display: flex;
-  justify-content: start;
-  align-items: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
 }
-img{
-  flex-shrink: 3;
-}
-p{
-  flex-shrink: 3;
-}
+/* Main */
 main{
   display: flex;
 }
+/* Nav */
 nav{
   width: 45%;
   height: 4vh;
-  position: absolute;
+  position: relative;
   top: 5%;
-  right: 0;
+  left: 120vh;
   display: flex;
   align-items: start;
   justify-content: flex-end;
@@ -60,41 +68,27 @@ nav a{
   justify-content: space-between;
   align-items: center;
 }
+
+/* Elementos */
 .titulo{
     width: 85%;
     position: relative;
-    display: flex;
-    bottom: 20vh;
-    left: 79%;
-    
+    left: 59vh;
+    bottom: 30vh;
+    z-index: 2;
 }
 
 .estrelas{
-    width: 87%;
+    width: 80%;
     position: relative;
-    bottom: 63vh;
-    left: 5vh;
-    display: flex;
-    justify-content: start;
+    left: 0;
+    bottom: 88vh;
 }
 .fita{
     width: 110%;
     position: relative;
     bottom: 58vh;
     left: 10vh;
-    display: flex;
-}
-.txt1{
-  font-family: cursive;
-  position: relative;
-  right: 15vh;
-  bottom: 48vh;
-}
-.day{
-  text-align: center;
-  font-size:3vh;
-  color: rgb(0, 0, 0);
-  rotate: calc(2deg)
 }
 
 .liberado{
@@ -108,16 +102,21 @@ nav a{
   position: relative;
   right: 105vh;
   top: 6vh;
-  display: flex;
 }
 
 .cartaz{
-  width: 1000px;
+  width: 260%;
   position: relative;
-  display: flex;
-  left: 30vh;
-  bottom: 15vh;
+  left: 40vh;
+  bottom: 20vh;
 
+}
+/* Textos */
+.txt1{
+  font-family: cursive;
+  position: relative;
+  right: 15vh;
+  bottom: 48vh;
 }
 
 .txt2{
@@ -125,6 +124,7 @@ nav a{
  width: 150%;
  height: 30vh;
  position: relative;
+ z-index: 2;
  bottom: 20vh;
  right: 158vh;
 }
@@ -137,4 +137,11 @@ nav a{
   color: rgba(35, 0, 0, 1.0);
   text-align: center;
   line-height: 2.0;
+}
+
+.day{
+  text-align: center;
+  font-size:3vh;
+  color: rgb(0, 0, 0);
+  rotate: calc(2deg)
 }
