@@ -12,10 +12,11 @@ body {
   background-position: center; 
   height: 100vh;
   color: #111;
-  overflow: hidden;
 }
 /* Header */
 header {
+  width: 100vh;
+  height: 18vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,8 +59,12 @@ nav a:hover{
 /* Main */
 main{
   display: flex;
+  width: 100vh;
+  height: 100vh;
 }
-
+br{
+  width: 100%;
+}
 /* Planos */
 .selo{
   flex-basis: 100vh;
@@ -69,25 +74,24 @@ main{
   height: 52vh;
 }
 .primeiro {
-  right: 220vh;
+  right: 110vh;
+  bottom: 3vh;
   position: relative;
 }
 
 .segundo {
-  bottom: 74.5vh;
-  right: 120vh;
+  bottom: 73.5vh;
   position: relative;
 }
 
 .terceiro {
-  bottom: 100vh;
-  right: 220vh;
+  bottom: 102vh;
+  right: 110vh;
   position: relative;
 }
 
 .quarto {
-  bottom: 174.5vh;
-  right: 120vh;
+  bottom: 172vh;
   position: relative;
 }
 
