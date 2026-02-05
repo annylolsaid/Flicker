@@ -1,9 +1,10 @@
+/* Global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Body */
 body {
   font-family: 'Oswald', sans-serif;
   background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44c3afssv/background%20papel.png);
@@ -11,9 +12,13 @@ body {
   background-position: center; 
   height: 100vh;
   color: #111;
+  overflow: hidden;
 }
+/* Header */
 header {
   display: flex;
+  width: 100vh;
+  height: 10vh;
   justify-content: space-between;
   align-items: center;
   padding: 3vh 5vh;
@@ -25,6 +30,7 @@ header h1 {
   font-family: 'Anton', sans-serif;
 }
 
+/* Nav */
 nav{
   width: 45%;
   height: 4vh;
@@ -39,16 +45,141 @@ nav a{
   width: 23%;
   font-size: 3vh;
   color: black;
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.6s;
 }
+nav a:hover{
+  transition: 0.4s;
+  transform: scale(1.05);
+  color: #b91515;
+}
+.loja{
+  position: relative;
+  left: 5vh;
+  text-align: center;
+}
+/* Main */
 main{
   display: flex;
 }
-h2{
 
+/* Section */
+section{
+  display: flex;
+  width: 30vh;
+  height: 100vh;
+}
+/* Standard */
+.standard img{
+  width: 1000%;
+  height: 100%;
+  position: relative;
+  right: 30vh;
+}
+.standard h2{
+  background-color: white;
+  border-radius: 2vh;
+  padding: 0.2vh;
+}
+.standard p{
+  background-color: white;
+  border-radius: 2vh;
+  padding: 1vh;
+  position: relative;
+}
+.standard ul{
+  background-color: white;
+  border-radius: 2vh;
+  padding: 2vh;
+}
+
+/* Gold */
+.gold{
+  position: relative;
+  bottom: 16.5vh;
+  left: 7vh;
+  width: 50vh;
+  height: 115vh;
+}
+.gold article{
+  position: relative;
+  top: 21.5vh;
+  left: 42vh;
+}
+.gold h2{
+  background-color: white;
+  border-radius: 2vh;
+  padding: 0.2vh;
+  
+}
+.gold p{
+  background-color: white;
+  border-radius: 2vh;
+  padding: 1vh;
+  margin-bottom: 0.5vh;
+  position: relative;
+}
+.gold ul{
+  background-color: white;
+  border-radius: 2vh;
+  padding: 2vh;
+}
+/* Platinum */
+.platinum{
+  width: 40vh;
+  height: 80vh;
+  position: relative;
+  left: 25vh;
+}
+.platinum article{
+  position: relative;
+  left: 43vh;
+}
+.platinum h2{
+  background-color: white;
+  border-radius: 2vh;
+  padding: 0.2vh;
+}
+.platinum p{
+  background-color: white;
+  border-radius: 2vh;
+  padding: 1vh;
+  position: relative;
+}
+.platinum ul{
+  background-color: white;
+  border-radius: 2vh;
+  padding: 2vh;
+}
+/* Textos */
+article{
+  width: 100%;
+  height: 23vh;
+  position: relative;
+  top: 5vh;
+  left: 14vh;
+  z-index: 1;
+  text-align: center;
+}
+h2{
+  width: 100%;
+  font-size: 4.3vh;
+}
+p{
+  width: 100%;
+  height: 20%;
+  position: relative;
+  font-size: 2vh;
+  top: 20vh;
 }
 ul{
+  width: 30vh;
   list-style: circle;
+  position: relative;
+  font-size: 2vh;
+  top: 30vh;
 }
