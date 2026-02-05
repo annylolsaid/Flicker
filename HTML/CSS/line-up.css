@@ -1,9 +1,10 @@
+/* Global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Body */
 body {
   font-family: 'Oswald', sans-serif;
   background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44c3afssv/background%20papel.png);
@@ -11,7 +12,9 @@ body {
   background-position: center; 
   height: 100vh;
   color: #111;
+  overflow: hidden;
 }
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -25,10 +28,12 @@ header h1 {
   font-family: 'Anton', sans-serif;
 }
 
+/* Nav */
 nav{
   width: 45%;
   height: 4vh;
   position: absolute;
+  z-index: 4;
   top: 5%;
   right: 0;
   display: flex;
@@ -42,15 +47,43 @@ nav a{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.6s;
 }
+nav a:hover{
+  transition: 0.4s;
+  transform: scale(1.05);
+  color: #b91515;
+}
+.loja{
+  position: relative;
+  left: 5vh;
+}
+/* Main */
 main{
   display: flex;
 }
 
+div{
+  border-radius: 2vh;
+  background-size: cover; 
+  background-position: center;
+  transition: 0.2s;
+}
+div:hover{
+  transform: scale(1.05);
+  transition: 0.4s;
+}
 section{
   width: 25%;
   height: 100vh;
 }
+h2{
+  text-align: center;
+  color: #5a1414fe;
+  border-radius: 20px;
+  background-color: #df1f1f ;
+}
+/* Dia 1 */
 .dia1 img{
   width: 160%;
   position: relative;
@@ -68,22 +101,18 @@ section{
   width: 80%;
   height: 45%;
   z-index: 2;
-  background-image: url(https://uploads.onecompiler.io/44c322yjp/44c533j4v/Design%20sem%20nome.png);
-
+  background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44cr7j9ta/Captura%20de%20tela%202026-02-05%20154749.png); 
 }
 .dia1 h2{
   position: relative;
   font-size: 3vh;
   right: -32%;
   top: -5%;
-  text-align: center;
-  color: #a73c3c;
-  border-radius: 20px;
-  background-color: #3a0000 ;
   width: 30%;
   z-index: 2;
 }
 
+/* Dia 2 */
 .dia2 div{
   background-color: black;
   width: 80%;
@@ -91,21 +120,17 @@ section{
   position: relative;
   bottom: -33%;
   z-index: 2;
-  background-image: url('https://uploads.onecompiler.io/44c322yjp/44c533j4v/Design%20sem%20nome%20(2).png');
-
+  background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44cr7jmhq/Captura%20de%20tela%202026-02-05%20154907.png);
 }
 .dia2 h2{
   position: relative;
   font-size: 3vh;
   right: -23%;
   bottom: -28%;
-  text-align: center;
-  color: #a73c3c;
-  border-radius: 20px;
-  background-color: #3a0000 ;
   width: 30%;
   z-index: 2;
 }
+/* Dia 3 */
 .dia3 div{
   display: flex;
   align-items: start;
@@ -117,18 +142,13 @@ section{
   width: 80%;
   height: 45%;
   z-index: 2;
-  background-image: url();
-
+  background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44cr7mts3/Captura%20de%20tela%202026-02-05%20155207.png);
 }
 .dia3 h2{
   position: relative;
   font-size: 3vh;
   right: -7%;
   top: -15%;
-  text-align: center;
-  color: #a73c3c;
-  border-radius: 20px;
-  background-color: #3a0000 ;
   width: 30%;
   z-index: 2;
 }
@@ -146,6 +166,7 @@ section{
   bottom: 10vh;
   z-index: 1;
 }
+/* Dia 4 */
 .dia4 div{
   display: flex;
   align-items: center;
@@ -157,7 +178,7 @@ section{
   width: 80%;
   height: 45%;
   z-index: 2;
-  background-image: url();
+  background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44cr7twkj/Captura%20de%20tela%202026-02-05%20155605.png);
 
 }
 .dia4 h2{
@@ -165,10 +186,6 @@ section{
   font-size: 3vh;
   right: 17%;
   bottom: 31%;
-  text-align: center;
-  color: #a73c3c;
-  border-radius: 20px;
-  background-color: #3a0000 ;
   width: 60%;
   z-index: 2;
 }
@@ -179,32 +196,3 @@ section{
   bottom: 47vh;
   z-index: 1;
 }
-/* footer {
-  background-color: rgb(129, 0, 0);
-  color: white;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-}
-
-.contatos {
-  display: flex;
-  gap: 20px;
-}
-
-.contatos a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.contatos a:hover {
-  text-decoration: underline;
-}
-
-.footer p {
-  font-size: 14px;
-  text-align: center;
-} */
