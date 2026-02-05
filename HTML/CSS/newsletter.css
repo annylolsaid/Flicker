@@ -12,10 +12,11 @@ body {
   background-position: center; 
   height: 100vh;
   color: #111;
-  overflow: hidden;
 }
 /* Header */
 header {
+  width: 100vh;
+  height: 18vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,8 +59,12 @@ nav a:hover{
 /* Main */
 main{
   display: flex;
+  width: 100vh;
+  height: 100vh;
 }
-
+br{
+  width: 100%;
+}
 /* Planos */
 .selo{
   flex-basis: 100vh;
@@ -69,25 +74,24 @@ main{
   height: 52vh;
 }
 .primeiro {
-  right: 220vh;
+  right: 110vh;
+  bottom: 3vh;
   position: relative;
 }
 
 .segundo {
-  bottom: 74.5vh;
-  right: 120vh;
+  bottom: 75vh;
   position: relative;
 }
 
 .terceiro {
-  bottom: 100vh;
-  right: 220vh;
+  bottom: 98vh;
+  right: 110vh;
   position: relative;
 }
 
 .quarto {
-  bottom: 174.5vh;
-  right: 120vh;
+  bottom: 170vh;
   position: relative;
 }
 
@@ -172,4 +176,68 @@ ul li {
 .beneficios4{
   position: relative;
   bottom: 45vh;
+}
+
+section .a{
+  background-color: rgb(217, 56, 56);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8vh;
+  padding: 2vh;
+  position: relative;
+  bottom: 21vh;
+  left: 24vh;
+  width: 15vh;
+  height: 5vh;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+section .a2{
+  display: flex;
+  background-color: rgb(217, 56, 56);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8vh;
+  padding: 2vh;
+  position: relative;
+  bottom: 19vh;
+  left: 26vh;
+  width: 15vh;
+  height: 5vh;
+  font-size: 2vh;
+  justify-content: center;
+}
+
+section .a3{
+  background-color: rgb(217, 56, 56);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8vh;
+  padding: 2vh;
+  position: relative;
+  bottom: 20vh;
+  left: 24vh;
+  width: 15vh;
+  height: 5vh;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+section .a4{
+  background-color: rgb(217, 56, 56);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8vh;
+  padding: 2vh;
+  position: relative;
+  bottom: 34vh;
+  left: 26vh;
+  width: 15vh;
+  height: 5vh;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
 }

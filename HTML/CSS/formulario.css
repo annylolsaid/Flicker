@@ -1,0 +1,43 @@
+body{ 
+    font-family: 'Cinzel', serif;
+    background: #fcf6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vh; /* 40px */
+}
+
+.formulario {
+    background-color: rgb(68, 0, 0);
+    width: 40vh;   /* 400px */
+    height: 50vh;  /* 350px */
+    border-radius: 1vh; /* 10px */
+    text-align: center;
+}
+
+p {
+    color: #eeebeb;
+    margin: 3vh 2vh;
+    padding: 1vh; /* 10px */
+}
+
+input[type="submit"] {
+    background: #7b0f1a;
+    color: white;
+    border-radius: 1vh; /* 10px */
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 4vh;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #b22222;
+}
+
+.mão {
+    width: 12vh; /* 150px */
+    position: relative;
+    right: 17vh;
+    bottom: 7vh;
+}
