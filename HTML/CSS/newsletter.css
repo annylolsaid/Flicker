@@ -80,18 +80,18 @@ br{
 }
 
 .segundo {
-  bottom: 73.5vh;
+  bottom: 75vh;
   position: relative;
 }
 
 .terceiro {
-  bottom: 102vh;
+  bottom: 98vh;
   right: 110vh;
   position: relative;
 }
 
 .quarto {
-  bottom: 172vh;
+  bottom: 170vh;
   position: relative;
 }
 
@@ -176,4 +176,68 @@ ul li {
 .beneficios4{
   position: relative;
   bottom: 45vh;
+}
+
+section .a{
+  background-color: rgb(217, 56, 56);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8vh;
+  padding: 2vh;
+  position: relative;
+  bottom: 21vh;
+  left: 24vh;
+  width: 15vh;
+  height: 5vh;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+section .a2{
+  display: flex;
+  background-color: rgb(217, 56, 56);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8vh;
+  padding: 2vh;
+  position: relative;
+  bottom: 19vh;
+  left: 26vh;
+  width: 15vh;
+  height: 5vh;
+  font-size: 2vh;
+  justify-content: center;
+}
+
+section .a3{
+  background-color: rgb(217, 56, 56);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8vh;
+  padding: 2vh;
+  position: relative;
+  bottom: 20vh;
+  left: 24vh;
+  width: 15vh;
+  height: 5vh;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+section .a4{
+  background-color: rgb(217, 56, 56);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8vh;
+  padding: 2vh;
+  position: relative;
+  bottom: 34vh;
+  left: 26vh;
+  width: 15vh;
+  height: 5vh;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
 }
