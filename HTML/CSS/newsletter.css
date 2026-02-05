@@ -1,9 +1,10 @@
+/* Global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Body */
 body {
   font-family: 'Oswald', sans-serif;
   background-image: url(https://uploads.onecompiler.io/43qyrtjtk/44c3afssv/background%20papel.png);
@@ -11,7 +12,9 @@ body {
   background-position: center; 
   height: 100vh;
   color: #111;
+  overflow: hidden;
 }
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -23,8 +26,11 @@ header h1 {
   font-size: 11vh;
   letter-spacing: 0.5vh;
   font-family: 'Anton', sans-serif;
+  position: relative;
+  z-index: 2;
 }
 
+/* Nav */
 nav{
   width: 45%;
   height: 4vh;
@@ -42,51 +48,63 @@ nav a{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.6s;
 }
+nav a:hover{
+  transition: 0.4s;
+  transform: scale(1.05);
+  color: #b91515;
+}
+/* Main */
 main{
   display: flex;
 }
 
+/* Planos */
+.selo{
+  flex-basis: 100vh;
+  flex-grow: 3;
+  flex-shrink: 3;
+  width: 100vh;
+  height: 52vh;
+}
+.primeiro {
+  right: 220vh;
+  position: relative;
+}
+
 .segundo {
-  display: inline-block;
-  position: absolute;
-  left: 120vh;
+  bottom: 74.5vh;
+  right: 120vh;
+  position: relative;
 }
 
 .terceiro {
-  display: inline-block;
-  position: absolute;
-  top: 80vh;
-  left: 20vh;
-
-  
+  bottom: 100vh;
+  right: 220vh;
+  position: relative;
 }
 
 .quarto {
-  display: inline-block;
-  position: absolute;
-  top: 80vh;
-  left: 120vh;
-
+  bottom: 174.5vh;
+  right: 120vh;
+  position: relative;
 }
 
-.primeiro {
-  display: inline-block;
-  position: absolute;
-  left: 20vh;
-  top: 19vh;
-}
-
+/* Imagens */
 .estrelas{
-  display: flex;
   position: absolute;
-  left: 186vh;
-  height: 80vh;
-  bottom: 60vh;
+  right: 0;
+  height: 85%;
+  bottom: 55vh;
 }
-
+section{
+  position: relative;
+  left: 10vh;
+  display: grid;
+  gap: 7vh;
+}
 .saturno{
-  display: flex;
   position: absolute;
   right: 25vh;
   height: 25vh;
@@ -94,187 +112,64 @@ main{
 }
 
 .fita{
-  display: flex;
   position: absolute;
   height: 90vh;
   bottom: 10vh;
   right: 95vh;
 }
-
-.terceiro h3 {
+.raio{
+ width: 60%;
+ height: 60%;
+ position: relative;
+ top: 20vh;
+ right: 20vh;
+}
+.moca{
+ width: 60%;
+ height: 60%;
+ position: relative;
+ left: 13vh;
+}
+/* Textos */
+h3 {
   color: rgb(255, 255, 255);
-  position: absolute;
-  bottom: 55vh;
+  position: relative;
+  bottom: 50vh;
   font-size: 4vh;
-  left: 20vh;
-}
-
-.terceiro p {
-  display: flex;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  bottom: 47vh;
-  font-size: 105%;
   left: 15vh;
-  text-align: justify;
-  width: 40vh
 }
 
-.segundo h3 {
+p {
   color: rgb(255, 255, 255);
-  position: absolute;
-  bottom: 55vh;
-  font-size: 4vh;
-  left: 24vh;
-}
-
-.segundo p {
-  display: flex;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  bottom: 47vh;
+  position: relative;
+  bottom: 49vh;
   font-size: 105%;
-  left: 15vh;
+  left: 12vh;
   text-align: justify;
   width: 40vh;
-
 }
-
-
-.primeiro h3 {
-  color: rgb(255, 255, 255);
-  position: absolute;
-  bottom: 55vh;
-  font-size: 4vh;
-  left: 22vh;
-}
-
-.primeiro p {
-  display: flex;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  bottom: 47vh;
-  font-size: 105%;
-  left: 15vh;
-  text-align: justify;
-  width: 40vh;
-
-}
-
-.quarto h3 {
-  color: rgb(255, 255, 255);
-  position: absolute;
-  bottom: 55vh;
-  font-size: 4vh;
-  left: 13vh;
-}
-
-.quarto p {
-  display: flex;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  bottom: 47vh;
-  font-size: 105%;
-  left: 15vh;
-  text-align: justify;
-  width: 40vh;
-
-}
-
-.beneficios {
+ul {
   position: absolute;
   list-style: disc; 
-  padding-left: 20px;
+  padding-left: 3vh;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  left: 16vh;
-  bottom: 25vh;
+  left: 10vh;
+  bottom: 26vh;
 }
-
-.beneficios li {
+ul li {
   color: #fff;
-  font-size: 14px;
+  position: relative;
+  bottom: 3.5vh;
+  font-size: 2vh;
   line-height: 1.4;
 }
-
-.beneficios2 {
-  position: absolute;
-  list-style: disc; 
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  left: 16vh;
-  bottom: 25vh;
+.universitario{
+  position: relative;
+  right: 7vh;
 }
-
-.beneficios2 li {
-  color: #fff;
-  font-size: 14px;
-  line-height: 1.4;
+.beneficios4{
+  position: relative;
+  bottom: 45vh;
 }
-
-.beneficios3 {
-  position: absolute;
-  list-style: disc; 
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  left: 16vh;
-  bottom: 25vh;
-}
-
-.beneficios3 li {
-  color: #fff;
-  font-size: 14px;
-  line-height: 1.4;
-}
-
-.beneficios4 {
-  position: absolute;
-  list-style: disc; 
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  left: 16vh;
-  bottom: 29vh;
-}
-
-.beneficios4 li {
-  color: #fff;
-  font-size: 14px;
-  line-height: 1.4;
-}
-
-/* footer {
-  background-color: rgb(129, 0, 0);
-  color: white;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-}
-
-.contatos {
-  display: flex;
-  gap: 20px;
-}
-
-.contatos a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.contatos a:hover {
-  text-decoration: underline;
-}
-
-.footer p {
-  font-size: 14px;
-  text-align: center;
-} */
